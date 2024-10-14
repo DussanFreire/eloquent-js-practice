@@ -13,7 +13,7 @@ JavaScript is the language of the web, and Eloquent JavaScript is a fantastic re
 Here’s how the repository is organized:
 ```
 eloquent-javascript-exercises/
-├── Chapter1-Basics/
+├── Chapter1-Values, Types, and Operators/
 │   ├── variables.js          # Variables, values, and expressions
 │   ├── functions.js          # Functions and how to use them
 │   └── challenges/           # Coding challenges for Chapter 1
