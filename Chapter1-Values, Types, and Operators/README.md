@@ -1,20 +1,97 @@
 # Chapter Notes: Eloquent JavaScript
 
-* JavaScript (JS) is also known as ECMAScript, with version 6 (2015) having the most impact.
-* Atomic parts of JS include values (the data stored in bits) and operators (used to manipulate values).
-* Number type uses 64 bits, representing up to 18 quadrillion values. The largest whole number is 9 quadrillion.
-* Fractional numbers are expressed with a dot (e.g., 2.333) or scientific notation (e.g., 2.333e8).
-* Arithmetic rules follow standard math precedence.
-* Special numbers include Infinity, -Infinity, and NaN (not a number, e.g., 0/0).
-* Strings represent text and are enclosed in ", ', or `. They can include special characters using a backslash (\).
-* Unicode is used to assign numbers to characters, and 16 bits represent each character in JS.
-* String concatenation uses +, and template literals allow embedding expressions inside strings using ${}.
-* Unary operators (e.g., typeof) work with one value, while binary operators (e.g., +) work with two.
-* Boolean values are true or false, often produced by comparison operators.
-* Logical operators include &&, ||, and !, with specific precedence rules.
-* The ternary operator (A ? B : C) returns B if A is true, otherwise C.
-* Empty values like null and undefined signify the absence of meaningful data.
-* Type coercion automatically converts data types during operations but can result in NaN.
-* Use === to avoid type coercion in comparisons.
-* Logical operators (||, &&) use short-circuit evaluation, meaning they only evaluate what’s necessary for the result.
-* The ?? operator returns the right-hand value if the left-hand value is null or undefined.
+## Data and Bits 0️⃣1️⃣
+
+In the digital world, everything is data. Computers store and process this data as bits (zeros and ones). Each bit represents two-valued forms such as:
+* High or low electrical charge
+* Strong or weak signal
+* Shiny or dull spots on a CD
+
+### Example:
+The number 13 in binary (base 2):
+
+``` javascript
+   0   0   0   0   1   1   0   1
+ 128  64  32  16   8   4   2   1
+```
+
+This binary number (00001101) represents 13 because 8 + 4 + 1 = 13.
+
+## Values and Memory 💾
+
+* Values are chunks of information created from bits.
+* In JavaScript, values can be numbers, text (strings), functions, etc.
+* Memory stores these values, but once a value is no longer needed, its bits are recycled for other uses.
+
+## Numbers 🔢
+Numbers in JavaScript are stored as 64-bit chunks, allowing representation of:
+*	Up to 18 quintillion unique numbers
+*	Some precision loss for fractional numbers
+
+###	Examples:
+Whole number:
+``` javascript
+13
+```
+Fractional number:
+``` javascript
+9.81
+```
+Scientific notation:
+``` javascript
+2.998e8  // 299,800,000
+```
+
+## Arithmetic Operations ✖️➕
+
+Common arithmetic operators:
+* + (addition)
+*	- (subtraction)
+*	* (multiplication)
+*	/ (division)
+``` javascript
+(100 + 4) * 11  // 1144
+```
+Modulo (remainder) operator:
+``` javascript
+314 % 100  // 14
+```
+## Special Numbers 💯
+JavaScript has three special numeric values:
+
+*	Infinity: Positive infinity
+*	-Infinity: Negative infinity
+*	NaN: Not a number
+
+## Strings 🔤
+* quotes (", ', or `).
+*	Special characters can be included using a backslash (\) for escaping.
+``` javascript
+"This is the first line\nAnd this is the second"
+```
+Strings can be concatenated using the + operator:
+``` javascript
+"con" + "cat" + "e" + "nate"  // "concatenate"
+```
+Template literals (with backticks) allow embedding values:
+``` javascript
+`half of 100 is ${100 / 2}`  // "half of 100 is 50"
+```
+## Operators 🧮
+### Unary Operators
+Operators that work on a single value, like typeof:
+``` javascript
+typeof 4.5  // "number"
+```
+### Boolean Values
+JavaScript has a Boolean type with values true and false.
+
+### Comparisons
+
+Comparison operators produce Boolean values:
+``` javascript
+3 > 2  // true
+"Aardvark" < "Zoroaster"  // true
+```
+### Other Operators
+*	>=, <=, ==, != for greater/less than and equal comparisons.
