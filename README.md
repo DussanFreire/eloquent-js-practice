@@ -14,10 +14,7 @@ Here’s how the repository is organized:
 ```
 eloquent-javascript-exercises/
 ├── Chapter1-Values, Types, and Operators/
-│   ├── variables.js          # Variables, values, and expressions
-│   ├── functions.js          # Functions and how to use them
-│   └── challenges/           # Coding challenges for Chapter 1
-│       └── challenge1.js
+│   └── README.md          # Chapter summary
 ├── Chapter2-Program-Structure/
 │   ├── control-flow.js       # Conditional statements, if-else, switch
 │   ├── loops.js              # Working with loops: while, for
