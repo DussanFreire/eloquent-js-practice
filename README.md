@@ -16,10 +16,10 @@ eloquent-javascript-exercises/
 ├── Chapter1-Values, Types, and Operators/
 │   └── README.md          # Chapter summary
 ├── Chapter2-Program-Structure/
-│   ├── control-flow.js       # Conditional statements, if-else, switch
-│   ├── loops.js              # Working with loops: while, for
-│   └── challenges/
-│       └── challenge1.js
+│   ├── Looping a triangle - Exercise.js
+│   ├── FizzBuzz - Exercise.js
+│   ├── Chessboard - Exercise.js
+│   └── README.md 
 ├── Chapter3-Functions/
 │   ├── higher-order-functions.js  # Functions as values
 │   └── challenges/
