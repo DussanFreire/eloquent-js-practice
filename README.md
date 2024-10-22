@@ -19,11 +19,12 @@ eloquent-javascript-exercises/
 │   ├── Looping a triangle - Exercise.js
 │   ├── FizzBuzz - Exercise.js
 │   ├── Chessboard - Exercise.js
-│   └── README.md 
+│   └── README.md  # Chapter summary
 ├── Chapter3-Functions/
-│   ├── higher-order-functions.js  # Functions as values
-│   └── challenges/
-│       └── challenge1.js
+│   ├── Minimum.js
+│   ├── Bean counting.js
+│   ├── Recursion.js
+│   └── README.md # Chapter summary
 ├── ... More chapters ...
 └── README.md                 # This readme you're reading right now!
 ```
