@@ -33,7 +33,7 @@ Each chapter has:
 * Challenges: Exercises to practice each chapter’s lessons, along with my solutions.
 
 ## 📖 Table of Contents
-1.	Chapter 1: Basics
+1.	Chapter 1: Values, Types, and Operators
 2.	Chapter 2: Program Structure
 3.	Chapter 3: Functions
 4.	Chapter 4: Data Structures
