@@ -60,9 +60,9 @@ I started this repository to track my progress while reading Eloquent JavaScript
 *	Share my work with others who are also learning JavaScript.
 
 ## 🚩 Progress Tracker
-*	✅ Chapter 1: Basics
+*	✅ Chapter 1: Values, Types, and Operators
 *	✅ Chapter 2: Program Structure
-*	⬜ Chapter 3: Functions (In progress)
+*	✅ Chapter 3: Functions (In progress)
 *	⬜ Chapter 4: Data Structures (Coming soon)
 *	⬜ … More to come!
 
